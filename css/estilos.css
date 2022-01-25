@@ -1,17 +1,22 @@
 body
 {
+    blackground: black;
     color:#333;
     text-align: left;
     font-family: Arial;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
 }
 
 #cabecera
 {
-    background: #3aa;
+    background: #3aa, url("../imagenes/logo.png") contain;
     box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.5);
     color: white;
     font-weight: bold;
-    margin: 0.9em;
+    margin: 0;
+    padding: 0.5em 0.5em 2em;
 }
 
 #cabecera #tagline
@@ -19,6 +24,12 @@ body
     padding: 0 0 0 1em;
     font-white: normal;
     font-size: 0.8em;
+}
+
+#cabecera #logo
+{
+    width: 20px;
+    vertical-align: middle;
 }
 
 #container 
@@ -33,4 +44,10 @@ body
 #container h1
 {
     font-size: 50px;
+}
+
+#post
+{
+    background: white;
+    padding: 1em;
 }
